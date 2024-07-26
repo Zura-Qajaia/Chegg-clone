@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    title Custom Template
+    style.
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+      }
+      .header {
+        background-color: #f7f7f7;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #dddddd;
+      }
+      .content {
+        padding: 20px;
+      }
+      .footer {
+        background-color: #f7f7f7;
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid #dddddd;
+        font-size: 12px;
+        color: #aaaaaa;
+      }
+  body
+    .container
+      .header
+        h1 Hello
+      .content
+        p This is a custom email template.
+        p #{url}
+      .footer
+        p If you did not expect this email, please ignore it.

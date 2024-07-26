@@ -1,0 +1,21 @@
+.za {
+  position: relative;
+}
+
+.title {
+    color: orangered;
+    font-size:xx-large;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+.nav {
+  text-align: center;
+  margin-right: 200px;
+}
+
+.z {
+    
+}

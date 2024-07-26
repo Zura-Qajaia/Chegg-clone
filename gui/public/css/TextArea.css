@@ -1,0 +1,24 @@
+.zura1 {
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 190px;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+
+.zura {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.zura p {
+    text-align: center;
+}
+
+
+
+
